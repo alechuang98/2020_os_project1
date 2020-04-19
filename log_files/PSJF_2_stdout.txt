@@ -1,0 +1,17 @@
+make P1
+[P1] 15529 is running for 1000 unit of time
+make P2
+[P2] 15530 is running for 1000 unit of time
+make P3
+[P1] 15529 is running for 2000 unit of time
+[P3] 15531 is running for 1000 unit of time
+make P4
+[P4] 15532 is running for 2000 unit of time
+make P5
+[P5] 15533 is running for 1000 unit of time
+[P3] 15531 is running for 3000 unit of time
+P1 15529
+P2 15530
+P3 15531
+P4 15532
+P5 15533

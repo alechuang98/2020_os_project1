@@ -1,0 +1,14 @@
+make P2
+make P1
+[P2] 15548 is running for 100 unit of time
+make P3
+[P3] 15550 is running for 100 unit of time
+make P4
+[P3] 15550 is running for 900 unit of time
+[P2] 15548 is running for 1900 unit of time
+[P4] 15551 is running for 4000 unit of time
+[P1] 15549 is running for 7000 unit of time
+P1 15549
+P2 15548
+P3 15550
+P4 15551

@@ -1,0 +1,64 @@
+make P1
+[P1] 15493 is running for 200 unit of time
+make P2
+[P1] 15493 is running for 100 unit of time
+make P3
+[P1] 15493 is running for 100 unit of time
+make P4
+[P1] 15493 is running for 100 unit of time
+make P5
+make P6
+[P2] 15494 is running for 100 unit of time
+make P7
+[P2] 15494 is running for 400 unit of time
+[P3] 15495 is running for 500 unit of time
+[P4] 15496 is running for 500 unit of time
+[P5] 15497 is running for 500 unit of time
+[P6] 15498 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P3] 15495 is running for 500 unit of time
+[P4] 15496 is running for 500 unit of time
+[P5] 15497 is running for 500 unit of time
+[P6] 15498 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P3] 15495 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P3] 15495 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P3] 15495 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P3] 15495 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P7] 15499 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P2] 15494 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+[P1] 15493 is running for 500 unit of time
+P1 15493
+P2 15494
+P3 15495
+P4 15496
+P5 15497
+P6 15498
+P7 15499

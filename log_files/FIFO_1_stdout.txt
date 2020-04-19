@@ -1,0 +1,15 @@
+make P1
+make P2
+make P3
+make P4
+make P5
+[P1] 15260 is running for 500 unit of time
+[P2] 15261 is running for 500 unit of time
+[P3] 15262 is running for 500 unit of time
+[P4] 15263 is running for 500 unit of time
+[P5] 15264 is running for 500 unit of time
+P1 15260
+P2 15261
+P3 15262
+P4 15263
+P5 15264
