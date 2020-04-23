@@ -20,6 +20,18 @@ def get_unit():
             print("{:.12f}, {:.12f}".format(start, end))
     return tot_time / 5000
 
+def get_unit_new():
+    tot_time = 0
+    min_time = 1e12
+    max_time = 0
+    with open(os.path.join(output, time_file), "r") as f:
+        for line in f:
+            line = line.strip("\n").split(" ")
+            print(line)
+            min_time = min(min_time, float(line[3][:-1]))
+            max_time = max(max_time, float(line[4]))
+    return (max_time - min_time) / 9500
+
 def draw(unit):
     for file_name in os.listdir(test_data):
         dmesg = os.path.join(output, file_name.split('.')[0] + "_dmesg.txt")
@@ -49,7 +61,6 @@ def draw(unit):
             for k, v in exp.items():
                 exp[k][0] -= mn_time
                 exp[k][1] -= mn_time
-        print(exp)
         mn_time = int(1e18)
         real_arr = {}
         with open(data, "r") as f:
@@ -72,7 +83,7 @@ def draw(unit):
                 name = line[0][1:-1]
                 if name == '$':
                     if first_task == 1:
-                        cur_time += time
+                        cur_time += int(line[1])
                 else:
                     first_task = 1
                     time = int(line[1])
@@ -105,6 +116,7 @@ def draw(unit):
         plt.close()
 
 
-# print(get_unit())
-draw(get_unit())
+print(get_unit())
+print(get_unit_new())
+draw(get_unit_new())
 
