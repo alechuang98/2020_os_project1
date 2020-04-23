@@ -1,4 +1,4 @@
-<center><font size="30"><b>2020 Fall OS Project1</b></font></center>
+<center><font size="30"><b>2020 Spring OS Project1</b></font></center>
 
 <center><span style="font-weight:light; color:#7a7a7a; font-family:Merriweather;">by b06902034 </span><span style="font-weight:light; color:#7a7a7a; font-family:Noto Serif CJK SC;">黃柏諭</span></center>
 
