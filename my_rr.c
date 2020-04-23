@@ -38,6 +38,12 @@ void my_rr(TSK *tsk, int n){
 		if(!num){
 			int tt = lst[ptr].tsk.arr - t;
 			t = lst[ptr].tsk.arr;
+#ifdef DEBUG
+			if(tt){
+				printf("[$] %d\n", tt);
+				fflush(stdout);
+			}
+#endif
 			for(int i = 0; i < tt; i ++){
 				volatile unsigned long k;
 				for(k = 0; k < 1000000UL; k ++);

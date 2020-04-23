@@ -18,8 +18,8 @@
 int _fd = 0, *_T = 0;
 
 void make(TSK *tsk){
-	printf("make %s\n", tsk -> name);
-	fflush(stdout);
+	// printf("make %s\n", tsk -> name);
+	// fflush(stdout);
 	syscall(334, &(tsk -> st.tv_sec), &(tsk -> st.tv_nsec));
 	tsk -> pid = fork();
 	int PID = tsk -> pid;
@@ -45,7 +45,7 @@ void run(TSK *tsk, int run_time){
 	if(tsk -> rem == 0){
 		syscall(334, &(tsk -> ed.tv_sec), &(tsk -> ed.tv_nsec));
 		char s[205];
-		sprintf(s, "[Project1] %d %lu.%09lu, %lu.%09lu", getpid(), tsk -> st.tv_sec, tsk -> st.tv_nsec, tsk -> ed.tv_sec, tsk -> ed.tv_nsec);
+		sprintf(s, "[Project1] %d %lu.%09lu, %lu.%09lu", tsk -> pid, tsk -> st.tv_sec, tsk -> st.tv_nsec, tsk -> ed.tv_sec, tsk -> ed.tv_nsec);
 		syscall(333, s);
 	}
 }

@@ -1,15 +1,11 @@
-make P1
-[P1] 15520 is running for 1000 unit of time
-make P2
-[P2] 15521 is running for 1000 unit of time
-make P3
-[P3] 15522 is running for 1000 unit of time
-make P4
-[P4] 15523 is running for 3000 unit of time
-[P3] 15522 is running for 4000 unit of time
-[P2] 15521 is running for 6000 unit of time
-[P1] 15520 is running for 9000 unit of time
-P1 15520
-P2 15521
-P3 15522
-P4 15523
+[P1] 1000 
+[P2] 1000 
+[P3] 1000 
+[P4] 3000 
+[P3] 4000 
+[P2] 6000 
+[P1] 9000 
+P1 10065
+P2 10066
+P3 10067
+P4 10068

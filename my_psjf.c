@@ -100,6 +100,10 @@ void my_psjf(TSK *tsk,int n){
 			volatile unsigned long k;
 				for (k = 0; k < 1000000UL; k ++);
 			}
+#ifdef DEBUG
+			printf("[$] %d\n", lst[i][1]);
+			fflush(stdout);
+#endif
 		} else if(lst[i][1] == -1){
 			make(&tsk[lst[i][0]]);
 		} else {

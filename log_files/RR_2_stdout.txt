@@ -1,23 +1,22 @@
-make P1
-[P1] 15473 is running for 200 unit of time
-make P2
-[P1] 15473 is running for 300 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P1] 15473 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-[P2] 15474 is running for 500 unit of time
-P1 15473
-P2 15474
+[$] 600
+[P1] 200 
+[P1] 300 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P2] 500 
+[P2] 500 
+P1 10210
+P2 10211

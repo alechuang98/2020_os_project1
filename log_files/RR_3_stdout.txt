@@ -1,76 +1,71 @@
-make P1
-[P1] 15480 is running for 500 unit of time
-[P1] 15480 is running for 500 unit of time
-[P1] 15480 is running for 200 unit of time
-make P2
-[P1] 15480 is running for 300 unit of time
-[P2] 15483 is running for 500 unit of time
-[P1] 15480 is running for 400 unit of time
-make P3
-[P1] 15480 is running for 100 unit of time
-[P2] 15483 is running for 500 unit of time
-[P3] 15484 is running for 500 unit of time
-[P1] 15480 is running for 100 unit of time
-make P4
-[P1] 15480 is running for 400 unit of time
-make P5
-[P2] 15483 is running for 500 unit of time
-[P3] 15484 is running for 100 unit of time
-make P6
-[P3] 15484 is running for 400 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P1] 15480 is running for 500 unit of time
-[P2] 15483 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P3] 15484 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P1] 15480 is running for 500 unit of time
-[P2] 15483 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P3] 15484 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P1] 15480 is running for 500 unit of time
-[P2] 15483 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P3] 15484 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P1] 15480 is running for 500 unit of time
-[P2] 15483 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P3] 15484 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P1] 15480 is running for 500 unit of time
-[P2] 15483 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P6] 15487 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P5] 15486 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-[P4] 15485 is running for 500 unit of time
-P1 15480
-P2 15483
-P3 15484
-P4 15485
-P5 15486
-P6 15487
+[$] 1200
+[P1] 500 
+[P1] 500 
+[P1] 200 
+[P1] 300 
+[P2] 500 
+[P1] 400 
+[P1] 100 
+[P2] 500 
+[P3] 500 
+[P1] 100 
+[P1] 400 
+[P2] 500 
+[P3] 100 
+[P3] 400 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P2] 500 
+[P6] 500 
+[P3] 500 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P2] 500 
+[P6] 500 
+[P3] 500 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P2] 500 
+[P6] 500 
+[P3] 500 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P2] 500 
+[P6] 500 
+[P3] 500 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P2] 500 
+[P6] 500 
+[P4] 500 
+[P5] 500 
+[P6] 500 
+[P4] 500 
+[P5] 500 
+[P6] 500 
+[P4] 500 
+[P5] 500 
+[P6] 500 
+[P4] 500 
+[P5] 500 
+[P6] 500 
+[P4] 500 
+[P5] 500 
+[P6] 500 
+[P4] 500 
+[P5] 500 
+[P4] 500 
+[P5] 500 
+[P4] 500 
+[P4] 500 
+P1 10217
+P2 10218
+P3 10219
+P4 10220
+P5 10221
+P6 10222

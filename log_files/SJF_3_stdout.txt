@@ -1,28 +1,21 @@
-make P1
-make P2
-make P3
-[P1] 15427 is running for 100 unit of time
-make P4
-make P5
-[P1] 15427 is running for 100 unit of time
-make P6
-[P1] 15427 is running for 100 unit of time
-make P7
-[P1] 15427 is running for 100 unit of time
-make P8
-[P1] 15427 is running for 2600 unit of time
-[P4] 15430 is running for 10 unit of time
-[P5] 15431 is running for 10 unit of time
-[P6] 15432 is running for 4000 unit of time
-[P7] 15433 is running for 4000 unit of time
-[P2] 15428 is running for 5000 unit of time
-[P3] 15429 is running for 7000 unit of time
-[P8] 15434 is running for 9000 unit of time
-P1 15427
-P2 15428
-P3 15429
-P4 15430
-P5 15431
-P6 15432
-P7 15433
-P8 15434
+[$] 100
+[P1] 100 
+[P1] 100 
+[P1] 100 
+[P1] 100 
+[P1] 2600 
+[P4] 10 
+[P5] 10 
+[P6] 4000 
+[P7] 4000 
+[P2] 5000 
+[P3] 7000 
+[P8] 9000 
+P1 10151
+P2 10152
+P3 10153
+P4 10154
+P5 10155
+P6 10156
+P7 10157
+P8 10158

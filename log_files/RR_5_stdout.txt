@@ -1,63 +1,56 @@
-make P1
-[P1] 15505 is running for 200 unit of time
-make P2
-make P3
-[P1] 15505 is running for 200 unit of time
-make P4
-make P5
-[P1] 15505 is running for 100 unit of time
-[P2] 15506 is running for 100 unit of time
-make P6
-make P7
-[P2] 15506 is running for 400 unit of time
-[P3] 15507 is running for 500 unit of time
-[P4] 15508 is running for 500 unit of time
-[P5] 15509 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P6] 15510 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P3] 15507 is running for 500 unit of time
-[P4] 15508 is running for 500 unit of time
-[P5] 15509 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P6] 15510 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P3] 15507 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P3] 15507 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P3] 15507 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P3] 15507 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P7] 15511 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P2] 15506 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-[P1] 15505 is running for 500 unit of time
-P1 15505
-P2 15506
-P3 15507
-P4 15508
-P5 15509
-P6 15510
-P7 15511
+[P1] 200 
+[P1] 200 
+[P1] 100 
+[P2] 100 
+[P2] 400 
+[P3] 500 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P6] 500 
+[P7] 500 
+[P2] 500 
+[P3] 500 
+[P4] 500 
+[P5] 500 
+[P1] 500 
+[P6] 500 
+[P7] 500 
+[P2] 500 
+[P3] 500 
+[P1] 500 
+[P7] 500 
+[P2] 500 
+[P3] 500 
+[P1] 500 
+[P7] 500 
+[P2] 500 
+[P3] 500 
+[P1] 500 
+[P7] 500 
+[P2] 500 
+[P3] 500 
+[P1] 500 
+[P7] 500 
+[P2] 500 
+[P1] 500 
+[P7] 500 
+[P2] 500 
+[P1] 500 
+[P7] 500 
+[P2] 500 
+[P1] 500 
+[P2] 500 
+[P1] 500 
+[P1] 500 
+[P1] 500 
+[P1] 500 
+[P1] 500 
+[P1] 500 
+P1 10240
+P2 10241
+P3 10242
+P4 10243
+P5 10244
+P6 10245
+P7 10246

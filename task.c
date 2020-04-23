@@ -26,7 +26,7 @@ int main(int argc, char *argv[]){
 	while(total > 0){
 		total -= *_T;
 #ifdef DEBUG
-		printf("[%s] %d is running for %d unit of time\n", argv[1], getpid(), *_T);
+		printf("[%s] %d \n", argv[1], *_T);
 		fflush(stdout);
 #endif
 		for(int t = 0; t < *_T; t ++){

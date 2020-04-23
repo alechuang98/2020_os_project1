@@ -55,13 +55,16 @@ void my_fifo(TSK *tsk, int n){
 		}
 		t += tsk[tsk_id].rem;
 	}
-	
 	for(int i = 0; i < len; i ++){
 		if(lst[i].tsk_id == -1){
 			for(int t = 0 ; t < lst[i].rem; t++){
 				volatile unsigned long k;
 				for(k = 0; k < 1000000UL; k++);
 			}
+#ifdef DEBUG
+			printf("[$] %d\n", lst[i].rem);
+			fflush(stdout);
+#endif
 		} else if(lst[i].rem == -1){
 			make(&tsk[lst[i].tsk_id]);
 		} else if(lst[i].rem > 0){
