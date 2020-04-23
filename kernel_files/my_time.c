@@ -4,7 +4,7 @@
 #include <linux/linkage.h>
 #include <linux/kernel.h>
 
-asmlinkage int my_time(unsigned long *a, unsigned long *b){
+asmlinkage int sys_my_time(unsigned long *a, unsigned long *b){
 	struct timespec nowtime;
 	getnstimeofday(&nowtime);
 	*a = nowtime.tv_sec;
