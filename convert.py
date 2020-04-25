@@ -14,7 +14,7 @@ def get_unit():
         for line in f:
             line = line.strip("\n").split(" ")
             print(line)
-            start = float(line[3][:-1])
+            start = float(line[3])
             end = float(line[4][:-1])
             tot_time += end - start
             print("{:.12f}, {:.12f}".format(start, end))
@@ -28,7 +28,7 @@ def get_unit_new():
         for line in f:
             line = line.strip("\n").split(" ")
             print(line)
-            min_time = min(min_time, float(line[3][:-1]))
+            min_time = min(min_time, float(line[3]))
             max_time = max(max_time, float(line[4]))
     return (max_time - min_time) / 9500
 
@@ -54,7 +54,7 @@ def draw(unit):
             for line in f:
                 line = line.split(" ")
                 print(line)
-                start = float(line[3][:-1]) / unit
+                start = float(line[3]) / unit
                 end = float(line[4][:-1]) / unit
                 mn_time = min(start, mn_time)
                 exp[pid_to_name[line[2]]] = [start, end]
